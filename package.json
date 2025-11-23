@@ -1,6 +1,6 @@
 {
   "name": "react-frontend-dev-portfolio",
-  "homepage":"https://minji.portfoilo.github/",
+  "homepage":"https://minji.portfoilo.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -49,3 +49,5 @@
     "sass": "^1.42.1"
   }
 }
+
+
