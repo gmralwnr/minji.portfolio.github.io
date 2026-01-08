@@ -1,8 +1,8 @@
  
 {
     "basic_info": {
-      "description_header": "안녕하세요",
-      "description": ["👋 java 공부하면서 개발에 더 흥미가 생겨 back-end 공부 하고있는 신입 개발자 강민지입니다 👋   "],
+      "description_header": "👋 4년차 실무 경험을 보유한 Full-Stack 개발자로, \n\t\t     이커머스 및 백오피스 시스템을 중심으로 안정적인 서비스 개발을 수행해왔습니다. 👋",
+      "description": ["👋 4년차 실무 경험을 보유한 Full-Stack 개발자로, 이커머스 및 백오피스 시스템을 중심으로 안정적인 서비스 개발을 수행해왔습니다. 👋   "],
       "description1":  "사용자가 물음표❓를 던질 때 느낌표❗를 줄 수 있도록 ,   사용자와 개발자의 입장에 서서 효율적으로 개발하는 개발자가 되고싶습니다.👩‍💻 ",
       "description2":  "명확한 목표를 설정하고 계획하여 업무에 있어서 효율적인 시간관리 능력으로  최고의 역량을 발휘하여 보답하겠습니다. 잘 부탁드립니다. :)",
       
@@ -14,6 +14,245 @@
       }
     },
     "projects": [
+      {
+        "title": "OSSTEM",
+        "startDate": "2025.06 - 2025.12",
+        "description": "오스템임플란트 Denall Mall 기존 시스템을 상용 솔루션 기반으로 전환하는 프로젝트 개발입니다.  \n▸ 프로모션 관리 기능 개발\n   └ 이벤트, 적립금/마일리지, 쿠폰, 사은품 관리 기능 전반 개발\n   └ 등록·수정 및 대상 회원/지급 관리 기능 구현\n   └ 사은품 지급 및 배송 관리 기능 구현 \n ▸ 배송 프로세스 개발\n   └ 배송 지시 → 출고 확인 → 출고 완료 → 배송 완료 전체 플로우 개발\n   └ 굿스플로(Goodsflow) 연동을 통한 배송 지시 자동화\n   └ 굿스플로 배송지키미 기반 배송 추적 로직 개발\n   └ 스케줄러 기반 배송 프로세스 배치 개발\n▸ 반품 프로세스 개발\n   └ 회수 지시 → 회수 확인 → 회수 완료 → 반품 완료 프로세스 개발\n   └ 반품 시 SAP API 연동 로직 구현\n   └ 굿스플로·배송지키미 연동 통한 회수/반품 상태 추적 기능 개발\n▸ 고객 공지 관리 기능 개발\n   └ 공지 등록/수정 기능 개발\n   └ 에디터(Editor) 이미지 경로 공통 분기 처리 로직 개발\n   └ ERP API 연동 처리\n \n반품 처리 시 상품 유형(의약품/재료)에 따른 분기 처리 및 SAP 연동 로직을 추가 구현하여 업무 프로세스를 개선하였습니다. 게시판 관리에서는 통합 고객센터 시스템(OW)과의 연동을 통해 게시글 CRUD 기능을 구현하여 운영 효율성을 향상시켰습니다. \n"
+        ,"images": [
+          "images/portfolio/osstem/osstem_main.png",
+          "images/portfolio/osstem/osstem_delivery.png",
+          "images/portfolio/osstem/osstem_event.png"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-spring-plain",
+            "name": "Springboot"
+          },
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-nextjs-original",
+            "name": "next.js"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
+          },
+          {
+            "class": "devicon-mysql-plain",
+            "name": "MySql"
+          },
+          {
+            "class": "devicon-gitlab-plain",
+            "name": "GitLab"
+          },
+          {
+            "class": "devicon-jenkins-line",
+            "name": "Jenkins"
+          },
+          {
+            "class": "devicon-jira-plain",
+            "name": "Jira"
+          }
+        ]
+      },
+      {
+        "title": "아이스크림몰",
+        "startDate": "2024.04 - 2025.02",
+        "description": "아이스크림몰 교육 전용 이커머스 플랫폼의 기존 시스템을 솔루션 기반으로 전환하는 프로젝트에 참여하여, BackOffice 영역을 Full-Stack으로 개발하였습니다.\n\n👉 주요 업무: 솔루션을 이용한 관리자 페이지 기능 개발, 고객이용페이지 기능 개선 (Full-Stack 개발)\n▸ Bizppurio API 활용 -> 카카오톡, 메시지 전송 기능 개발\n   └  spring batch 입고확인, 주문완료, 마일리지/쿠폰 소멸 알림톡 전송 개발\n▸ 포인트 적립/사용 정책 기획 및 개발 \n   └ DB 설계 및 SQL쿼리 작성(포인트 적립, 재적립여부, 사용, 소멸 로직 구현)\n▸ 이벤트 메뉴 관리 데이터 설계 기능 개발\n▸ 배송비 이의신청 데이터 설계 기능 개발\n▸ 재입고처리 기능 개발 (단일상품, 묶음상품 로직 구현) "
+        ,"images": [
+          "images/portfolio/icecreammall/icecreamMall_main.png",
+          "images/portfolio/icecreammall/icecreamMall_alimTalk.png",
+          "images/portfolio/icecreammall/icecreamMall_mlgSource.png"
+         
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-spring-plain",
+            "name": "Springboot"
+          },
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          
+          {
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "postgresql"
+          },
+          {
+            "class": "devicon-gitlab-plain",
+            "name": "GitLab"
+          },
+          {
+            "class": "devicon-jenkins-line",
+            "name": "Jenkins"
+          },
+          {
+            "class": "devicon-jira-plain",
+            "name": "Jira"
+          }
+        ]
+      },
+      {
+        "title": "SPC-올닷",
+        "startDate": "2023.06 - 2024.03",
+        "description": "창업과 매장 운영 지원 솔루션을 주력으로 제공하며, 창업 아이템 선정부터 매장운영 솔루션까지 다양한 서비스를 제공하는 플랫폼입니다. \n 💠 주요 맡은 업무 \n▸ 데이터베이스 설계 및 FO/BO Full-Stack 개발\n▸ 서비스 상품 도메인 담당 개발\n▸ Spring Batch 기반 데이터 정리 배치 개발\n   └ 일정 기간 미사용 장바구니 데이터 삭제\n   └ 회원 탈퇴 시 개인정보 비식별화 및 데이터 정리\n CI/CD 구축 및 자동화\n   └ Jenkins–Git 연동\n   └ Linux 환경 JAR 실행 및 배포 프로세스 관리 \n \n" 
+         ,"images": [
+          "images/portfolio/alldot/alldot_main.png",
+          "images/portfolio/alldot/alldot_bomain.png"
+          ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-spring-plain",
+            "name": "Springboot"
+          },
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          
+          {
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "postgresql"
+          },
+          {
+            "class": "devicon-gitlab-plain",
+            "name": "GitLab"
+          },
+          {
+            "class": "devicon-jenkins-line",
+            "name": "Jenkins"
+          },
+          {
+            "class": "devicon-jira-plain",
+            "name": "Jira"
+          }
+        ]
+      },
+      {
+        "title": "CJ프레시웨이",
+        "startDate": "2023.06 - 2024.03",
+        "description": "이커머스형 주문시스템으로 기업 고객이 효율적으로 식자재와 식품을 주문 할 수 있도록 지원하는 플랫폼입니다. \n 고객의 요구에 맞춘 신선하고 안전한 제품을 제공하는데 중점을 둔 주문시스템 개발건입니다.\n👉 주요업무\n▸ full-stack 개발(관리자 페이지 & 고객 이용 페이지)\n▸ 식단표, 조리지침서, 입고내역서, 매출 , 공지사항, 아이콘 등록&상품 아이콘 노출 기능 개발\n▸ 결함 및 개선 사항 처리\n\n"        ,"images": [
+          "images/portfolio/alldot/foodnet.png"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-spring-plain",
+            "name": "Springboot"
+          },
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "postgresql"
+          },
+          {
+            "class": "devicon-amazonwebservices-original",
+            "name": "AWS"
+          },
+          {
+            "class": "devicon-jenkins-line",
+            "name": "Jenkins"
+          },
+          {
+            "class": "devicon-jira-plain",
+            "name": "Jira"
+          }
+        ]
+      },
+      
+      {
+        "title": "롯데홈쇼핑",
+        "startDate": "2023.01 - 2023.05",
+        "description": "사용자 친화적인 UI/UX 디자인개편, 모바일 최적화 등 고객의 편의성을 높이고 쇼핑몰의 전환율을 향상시키는 것이 주된 목적으로 만든 플랫폼입니다. \n \n▸ 기존 as-is 개발 소스 분석 to-be 응용 개발\n▸ Vue.js 사용하여 프론트엔드 개발 담당\n   └  상품 전시, 배너, 포인트, 쿠폰 데이터 연동 기능 구현 \n   └  props를 활용한 동적 데이터 바인딩 및 created/mounted 라이프사이클 활용 "
+        ,"images": [
+          "images/portfolio/alldot/lotte_main.png"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-spring-plain",
+            "name": "Springboot"
+          },
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-vuejs-plain",
+            "name": "veu.js"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
+          },
+          {
+            "class": "devicon-mysql-plain",
+            "name": "mySql"
+          },
+          {
+            "class": "devicon-subversion-original",
+            "name": "svn"
+          },
+          {
+            "class": "devicon-jenkins-line",
+            "name": "Jenkins"
+          },
+          {
+            "class": "devicon-jira-plain",
+            "name": "Jira"
+          }
+        ]
+      },
       {
         "title": "MealZo",
         "startDate": "2022",
@@ -59,85 +298,85 @@
         ]
       },
       {
-        "title": "준비중입니다 ",
-        "startDate": "2024",
-      
+        "title": "챗MJ(open ai) ",
+        "startDate": "2025",
+        "description": "Next.js 기반 React 개발 프로젝트에 참여하기에 앞서, open ai api 연동하여 Next.js 활용법에 익숙해지기 위한 개인 스터디 프로젝트로 Next.js App Router 기반 ChatGPT 웹 애플리케이션을 개발하였습니다. \n본 프로젝트를 통해 Next.js 14 버전의 App Router 기반 풀스택 개발 경험을 쌓았으며, Zustand를 활용한 전역 상태 관리, Neon Service 기반 PostgreSQL 데이터 관리, OpenAI API 연동을 통한 AI 채팅 기능 구현을 진행하였습니다.\n 또한 Vercel을 활용하여 실제 서비스 배포까지 완료함으로써, 기획 → 개발 → 배포까지 전 과정을 경험하였습니다.",
         "images": [
-          "images/portfolio/mealzo/ready.jpg"
+          "images/portfolio/alldot/chatgpt_detail.png",
+          "images/portfolio/alldot/chatgpt_by minji.png"
         ],
         "url": "",
         "technologies": [
           {
-            "class": "",
-            "name": ""
+            "class": "devicon-nextjs-original",
+            "name": "next.js"
           },
           {
-            "class": "",
-            "name": ""
+            "class": "devicon-react-original",
+            "name": "React"
           },
           {
-            "class": "",
-            "name": ""
-          }
-        ]
-      },
-      {
-        "title": "준비중입니다",
-        "startDate": "2022",
-        "description": "",
-        "images": [
-          "images/portfolio/mealzo/ready.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "",
-            "name": ""
-          },
-          {
-            "class": "",
-            "name": ""
-          },
-          {
-            "class": "",
-            "name": ""
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
           }
         ]
       }
     ],
   
-        "experience": [
-          {
-            "company": "이젠아카데미",
-            "title": "Mealzo - Project",
-            "years": "03.2022 - present",
-            "mainTech": [
-              "java"
-            ],
-            "technologies": [
-              "Eclipes",
-              "gradle",
-              "JavaScript",
-              "oracle sql developer",
-              "springboot",
-              "github",
-              ".jquery",
-              "css3",
-              "html5"
-            ]
-          },
-          {
-            "company": "이젠아카데미",
-            "title": "[스마트웹&콘텐츠개발]자바(JAVA) 웹 개발자(백엔드)",
-            "years": "09.2021 - 05.2022",
-            "mainTech": [
-              "java"
-            ],
-            "technologies": [
-              "Java",
-              ".."
-              
-            ]
+    "experience": [
+      {
+        "company": "코아메소드",
+        "title": "SI (System Integration)",
+        "years": "2022.07 - 2025.12",
+        "mainTech": [
+          "full-stack"
+        ],
+        "technologies": [
+
+        ]
+      },
+      {
+        "company": "방송통신대학교 졸업",
+        "title": "컴퓨터과학과",
+        "years": "2023.02 - 2025.08",
+        "mainTech": [
+          "4-year University"
+        ],
+        "technologies": [
+
+        ]
+      },
+      {
+        "company": "이젠아카데미",
+        "title": "Mealzo - Project",
+        "years": "2022.03 - 2022.05",
+        "mainTech": [
+          "full-stack"
+        ],
+        "technologies": [
+          "java",
+          "gradle",
+          "JavaScript",
+          "oracle sql developer",
+          "springboot",
+          "jquery",
+          "css3",
+          "html5",
+          "github"
+        ]
+      },
+      {
+        "company": "이젠아카데미",
+        "title": "[스마트웹&콘텐츠개발]자바(JAVA) 웹 개발자(백엔드)",
+        "years": "2021.09 - 2021.05",
+        "mainTech": [
+          "java"
+        ],
+        "technologies": [
+          "Java",
+          ".."
+          
+        ]
       }
     ]
   }

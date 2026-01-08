@@ -199,6 +199,8 @@ header h1 {
 
 .wave {
 	font-size: 160%;
+	white-space: pre-wrap;
+	
 }
 
 .font-trebuchet {
@@ -327,6 +329,7 @@ header h1 {
 	padding: 5px 5px 0 5px;
 	margin-bottom: 20px;
 	font-size: 12px;
+	white-space: pre-line;
 }
 
 .awssld__next {

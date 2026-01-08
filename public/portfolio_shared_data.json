@@ -10,7 +10,7 @@
           "class": "fab fa-github"
         }
       ],
-      "image": "minji.jpg"
+      "image": "minji_2.jpg"
     },
     "skills": {
       "icons": [
@@ -43,6 +43,16 @@
           "level": "80"
         },
         {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript",
+            "level": "80"
+        },
+        {
+            "class": "devicon-react-original",
+            "name": "React",
+            "level": "80"
+        },
+        {
           "name": "Jquery",
           "class": "devicon-jquery-plain",
           "level": "80"
@@ -58,8 +68,6 @@
           "class": "devicon-html5-plain",
           "level": "95"
         },
-  
-       
         {
           "name": "CSS3",
           "class": "devicon-css3-plain",
@@ -80,7 +88,23 @@
           "name": "Tomcat",
           "class": "devicon-tomcat-line",
           "level": "90"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "postgresql"
+        },
+        {
+          "class": "devicon-gitlab-plain",
+          "name": "GitLab"
+        },
+        {
+          "class": "devicon-jenkins-line",
+          "name": "Jenkins"
+        },
+        {
+          "class": "devicon-jira-plain",
+          "name": "Jira"
         }
-      ]
+]
     }
   }
