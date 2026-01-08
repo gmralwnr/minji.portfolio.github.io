@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/minji.portfolio.github.io/static/css/main.c8c2bb8d.css",
+    "main.css": "/minji.portfolio.github.io/static/css/main.0c257dea.css",
     "main.js": "/minji.portfolio.github.io/static/js/main.aa8e1ecf.js",
     "index.html": "/minji.portfolio.github.io/index.html",
-    "main.c8c2bb8d.css.map": "/minji.portfolio.github.io/static/css/main.c8c2bb8d.css.map",
+    "main.0c257dea.css.map": "/minji.portfolio.github.io/static/css/main.0c257dea.css.map",
     "main.aa8e1ecf.js.map": "/minji.portfolio.github.io/static/js/main.aa8e1ecf.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8c2bb8d.css",
+    "static/css/main.0c257dea.css",
     "static/js/main.aa8e1ecf.js"
   ]
 }
