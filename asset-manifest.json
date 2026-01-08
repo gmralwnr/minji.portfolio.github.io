@@ -1,25 +1,13 @@
 {
   "files": {
-    "main.css": "/minji.portfolio.github.io/static/css/main.7c40245c.chunk.css",
-    "main.js": "/minji.portfolio.github.io/static/js/main.c4bd75e5.chunk.js",
-    "main.js.map": "/minji.portfolio.github.io/static/js/main.c4bd75e5.chunk.js.map",
-    "runtime-main.js": "/minji.portfolio.github.io/static/js/runtime-main.bed45170.js",
-    "runtime-main.js.map": "/minji.portfolio.github.io/static/js/runtime-main.bed45170.js.map",
-    "static/css/2.3eb2a443.chunk.css": "/minji.portfolio.github.io/static/css/2.3eb2a443.chunk.css",
-    "static/js/2.42f02fa0.chunk.js": "/minji.portfolio.github.io/static/js/2.42f02fa0.chunk.js",
-    "static/js/2.42f02fa0.chunk.js.map": "/minji.portfolio.github.io/static/js/2.42f02fa0.chunk.js.map",
+    "main.css": "/minji.portfolio.github.io/static/css/main.c8c2bb8d.css",
+    "main.js": "/minji.portfolio.github.io/static/js/main.aa8e1ecf.js",
     "index.html": "/minji.portfolio.github.io/index.html",
-    "precache-manifest.b68695c54c97877dabe172b0ee6f54b7.js": "/minji.portfolio.github.io/precache-manifest.b68695c54c97877dabe172b0ee6f54b7.js",
-    "service-worker.js": "/minji.portfolio.github.io/service-worker.js",
-    "static/css/2.3eb2a443.chunk.css.map": "/minji.portfolio.github.io/static/css/2.3eb2a443.chunk.css.map",
-    "static/css/main.7c40245c.chunk.css.map": "/minji.portfolio.github.io/static/css/main.7c40245c.chunk.css.map",
-    "static/js/2.42f02fa0.chunk.js.LICENSE.txt": "/minji.portfolio.github.io/static/js/2.42f02fa0.chunk.js.LICENSE.txt"
+    "main.c8c2bb8d.css.map": "/minji.portfolio.github.io/static/css/main.c8c2bb8d.css.map",
+    "main.aa8e1ecf.js.map": "/minji.portfolio.github.io/static/js/main.aa8e1ecf.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.bed45170.js",
-    "static/css/2.3eb2a443.chunk.css",
-    "static/js/2.42f02fa0.chunk.js",
-    "static/css/main.7c40245c.chunk.css",
-    "static/js/main.c4bd75e5.chunk.js"
+    "static/css/main.c8c2bb8d.css",
+    "static/js/main.aa8e1ecf.js"
   ]
 }
