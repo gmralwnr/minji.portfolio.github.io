@@ -1,10 +1,10 @@
  
 {
     "basic_info": {
-      "description_header": "👋 4년차 실무 경험을 보유한 Full-Stack 개발자로, \n\t\t     이커머스 및 백오피스 시스템을 중심으로 안정적인 서비스 개발을 수행해왔습니다. 👋",
-      "description": ["👋 4년차 실무 경험을 보유한 Full-Stack 개발자로, 이커머스 및 백오피스 시스템을 중심으로 안정적인 서비스 개발을 수행해왔습니다. 👋   "],
-      "description1":  "사용자가 물음표❓를 던질 때 느낌표❗를 줄 수 있도록 ,   사용자와 개발자의 입장에 서서 효율적으로 개발하는 개발자가 되고싶습니다.👩‍💻 ",
-      "description2":  "명확한 목표를 설정하고 계획하여 업무에 있어서 효율적인 시간관리 능력으로  최고의 역량을 발휘하여 보답하겠습니다. 잘 부탁드립니다. :)",
+      "description_header": "Full-Stack 개발자를 목표로, 가능성을 말이 아닌 구현으로 \n증명해 나가는 개발자 강민지입니다.😊",
+      "description": ["4년차 실무 경험을 보유한 Full-Stack 개발자로, \n이커머스 및 백오피스 시스템을 중심으로 안정적인 서비스 개발을 수행해왔습니다."],
+      "description1":  "기획 의도와 사용자 경험을 함께 이해하며, 백엔드와 프론트엔드 전반에서 문제의 본질을 파악하고 운영까지 고려한 개발을 추구해왔습니다. 꼼꼼한 성격을 바탕으로 다양한 시나리오를 검토하며 안정적이고 확장 가능한 구조를 만드는 데 강점을 가지고 있습니다.👩‍💻 ",
+      "description2":  "사용자가 ‘왜❓’라고 묻는 순간, 시스템으로 명확한 ‘답❗’을 제시할 수 있는 개발자가 되기 위해 항상 사용자와 개발자 양쪽의 입장에서 효율적인 해답을 고민하며 개발을 하고있습니다.이렇게 명확한 목표 설정과 효율적인 시간 관리를 통해\n조직과 서비스에 실질적인 기여를 하는 개발자로 성장하겠습니다. 잘 부탁드립니다. :)",
       
         "section_name": {
         "about": "About me",
@@ -17,8 +17,8 @@
       {
         "title": "OSSTEM",
         "startDate": "2025.06 - 2025.12",
-        "description": "오스템임플란트 Denall Mall 기존 시스템을 상용 솔루션 기반으로 전환하는 프로젝트 개발입니다.  \n▸ 프로모션 관리 기능 개발\n   └ 이벤트, 적립금/마일리지, 쿠폰, 사은품 관리 기능 전반 개발\n   └ 등록·수정 및 대상 회원/지급 관리 기능 구현\n   └ 사은품 지급 및 배송 관리 기능 구현 \n ▸ 배송 프로세스 개발\n   └ 배송 지시 → 출고 확인 → 출고 완료 → 배송 완료 전체 플로우 개발\n   └ 굿스플로(Goodsflow) 연동을 통한 배송 지시 자동화\n   └ 굿스플로 배송지키미 기반 배송 추적 로직 개발\n   └ 스케줄러 기반 배송 프로세스 배치 개발\n▸ 반품 프로세스 개발\n   └ 회수 지시 → 회수 확인 → 회수 완료 → 반품 완료 프로세스 개발\n   └ 반품 시 SAP API 연동 로직 구현\n   └ 굿스플로·배송지키미 연동 통한 회수/반품 상태 추적 기능 개발\n▸ 고객 공지 관리 기능 개발\n   └ 공지 등록/수정 기능 개발\n   └ 에디터(Editor) 이미지 경로 공통 분기 처리 로직 개발\n   └ ERP API 연동 처리\n \n반품 처리 시 상품 유형(의약품/재료)에 따른 분기 처리 및 SAP 연동 로직을 추가 구현하여 업무 프로세스를 개선하였습니다. 게시판 관리에서는 통합 고객센터 시스템(OW)과의 연동을 통해 게시글 CRUD 기능을 구현하여 운영 효율성을 향상시켰습니다. \n"
-        ,"images": [
+        "description" :"오스템임플란트 Denall Mall 기존 시스템을 상용 솔루션 기반으로 전환하는 프로젝트 개발입니다.\n ✔️주요업무 : 배송 프로세스 관리, 프로모션 관리, 고객공지사항관리 기능 개발 \n\t▸배송/반품 프로세스 관리\n\t\t- 배송 전체 플로우(지시 → 출고 →배송완료/ 회수지시 →확인 →회수완료)를 설계·구현\n\t\t- Client API 기반 Goodsflow 및 배송지키미 연동하여 송장번호 적재, 배송추적 기능 개발\n\t\t- 배송 추적 배치 자동화를 통해 주문·배송 상태값 변경 관리 \n\t\t- 회수 지시 처리 시 PKG·PG 결제 / 의약품·재료 분기 처리하여 REST API 기반 SAP 반품 접수 연동 구현\n\t\t- SAP 연동 전송 과정에서 예외 발생 상황을 고려한 트랜잭션 제어로 데이터 일관성 유지하도록 개발\n\t▸프로모션 프로세스 관리\n\t\t- 쿠폰관리 1차-3차 할인쿠폰 등록/수정  \n\t\t- 이벤트 등록/수정, 응모관리, 추첨관리, 지급관리 개발\n\t\t -마일리지 지급/소멸 관리 개발\n\t▸고객공지관리\n\t\t- 공지사항 등록·수정 시 외부 API 연동을 통해 내부·외부 시스템 간 실시간 데이터 동기화 구현 \n\t\t- 공지사항 등록 시 에디터 이미지 파일 경로를 외부 도메인 기준으로 분기 처리하여 노출 이슈 방지  \n ✔️주요성과\n\t\t- 외부 시스템(SAP, Goodsflow) 연동 과정에서 실패 케이스를 고려한 트랜잭션 설계로 배송·반품\n\t\t\t 프로세스의 안정성과 운영 신뢰도를 향상시킴\n\t\t- 외부 API  연동으로 배송/회수 추적기능을 구현함으로 운영 대응 속도 개선"
+       ,"images": [
           "images/portfolio/osstem/osstem_main.png",
           "images/portfolio/osstem/osstem_delivery.png",
           "images/portfolio/osstem/osstem_event.png"
@@ -70,7 +70,7 @@
       {
         "title": "아이스크림몰",
         "startDate": "2024.04 - 2025.02",
-        "description": "아이스크림몰 교육 전용 이커머스 플랫폼의 기존 시스템을 솔루션 기반으로 전환하는 프로젝트에 참여하여, BackOffice 영역을 Full-Stack으로 개발하였습니다.\n\n👉 주요 업무: 솔루션을 이용한 관리자 페이지 기능 개발, 고객이용페이지 기능 개선 (Full-Stack 개발)\n▸ Bizppurio API 활용 -> 카카오톡, 메시지 전송 기능 개발\n   └  spring batch 입고확인, 주문완료, 마일리지/쿠폰 소멸 알림톡 전송 개발\n▸ 포인트 적립/사용 정책 기획 및 개발 \n   └ DB 설계 및 SQL쿼리 작성(포인트 적립, 재적립여부, 사용, 소멸 로직 구현)\n▸ 이벤트 메뉴 관리 데이터 설계 기능 개발\n▸ 배송비 이의신청 데이터 설계 기능 개발\n▸ 재입고처리 기능 개발 (단일상품, 묶음상품 로직 구현) "
+        "description": "아이스크림몰 교육 전용 이커머스 플랫폼의 기존 시스템을 솔루션 기반으로 전환하는 프로젝트에 참여하여, BackOffice 영역을 Full-Stack으로 개발하였습니다.\n✔️주요 업무: 솔루션을 이용한 관리자 페이지 기능 개발, 고객이용페이지 기능 개선 (Full-Stack 개발) \n\t▸ Bizppurio API 활용 -> 카카오톡, 메시지 전송 기능 개발\n\t\t- spring batch 입고확인, 주문완료, 마일리지/쿠폰 소멸 알림톡 전송 개발\n\t▸ 포인트 적립/사용 정책 기획 및 개발\n\t\t- DB 설계 및 SQL쿼리 작성(포인트 적립, 재적립여부, 사용, 소멸 로직 구현)\n\t▸ 이벤트 메뉴 관리 데이터 설계 기능 개발\n\t▸ 배송비 이의신청 데이터 설계 기능 개발\n\t▸ 재입고처리 기능 개발 (단일상품, 묶음상품 로직 구현) \n✔️주요성과 \n\t- 마일리지 정책이 명확하지 않은 상황에서 리뷰 적립·차감 기준을 재정의하고 정책 기반 로직을 설계·구현 \n\t- 리뷰 등록 시 마일리지 지급, 삭제 시 기존 적립 마일리지 차감, 재등록 시 추가 지급 방지 로직 구현 \n\t- 최초 주문 기준으로 리뷰 답글 여부를 쿼리로 조회하여 마일리지 지급 가능 여부 판단 기능 개발하여 정책 \n\t\t악용 및 중복 적립을 방지하여 마일리지 운영 안정성 및 신뢰도를 줄 수 있었다."
         ,"images": [
           "images/portfolio/icecreammall/icecreamMall_main.png",
           "images/portfolio/icecreammall/icecreamMall_alimTalk.png",
@@ -121,8 +121,8 @@
       {
         "title": "SPC-올닷",
         "startDate": "2023.06 - 2024.03",
-        "description": "창업과 매장 운영 지원 솔루션을 주력으로 제공하며, 창업 아이템 선정부터 매장운영 솔루션까지 다양한 서비스를 제공하는 플랫폼입니다. \n 💠 주요 맡은 업무 \n▸ 데이터베이스 설계 및 FO/BO Full-Stack 개발\n▸ 서비스 상품 도메인 담당 개발\n▸ Spring Batch 기반 데이터 정리 배치 개발\n   └ 일정 기간 미사용 장바구니 데이터 삭제\n   └ 회원 탈퇴 시 개인정보 비식별화 및 데이터 정리\n CI/CD 구축 및 자동화\n   └ Jenkins–Git 연동\n   └ Linux 환경 JAR 실행 및 배포 프로세스 관리 \n \n" 
-         ,"images": [
+        "description": "창업과 매장 운영 지원 솔루션을 주력으로 제공하며, 창업 아이템 선정부터 매장운영 솔루션까지 다양한 서비스를 제공하는 플랫폼입니다. \n✔️주요 맡은 업무 \n\t▸ 공통Excel 다운로드 Util 개발  \n\t▸ 데이터베이스 설계 및 FO/BO Full-Stack 개발\n\t▸ 서비스 상품 도메인 담당 개발\n\t▸ Spring Batch 기반 데이터 정리 배치 개발\n\t\t- 일정 기간 미사용 장바구니 데이터 삭제\n\t\t- 회원 탈퇴 시 개인정보 비식별화 및 데이터 정리\n\t▸ CI/CD 구축 및 자동화\n\t\t- Jenkins–Git 연동\n\t\t- Linux 환경 JAR 실행 및 배포 프로세스 관리 \n✔️주요 성과 \n\t- Jenkins 배포 파이프라인 스크립트를 작성하여 Git 연동 기반의 자동 빌드·배포(CI/CD) 환경 구축 \n\t- Shell Script를 활용한 배포 자동화로 실제 서비스 배포 및 운영 경험 확보 \n\t- Spring Scheduler를 활용한 배치 작업 구현으로 회원 관리 업무 자동화 및 운영 효율 개선"
+        ,"images": [
           "images/portfolio/alldot/alldot_main.png",
           "images/portfolio/alldot/alldot_bomain.png"
           ],
@@ -170,7 +170,7 @@
       {
         "title": "CJ프레시웨이",
         "startDate": "2023.06 - 2024.03",
-        "description": "이커머스형 주문시스템으로 기업 고객이 효율적으로 식자재와 식품을 주문 할 수 있도록 지원하는 플랫폼입니다. \n 고객의 요구에 맞춘 신선하고 안전한 제품을 제공하는데 중점을 둔 주문시스템 개발건입니다.\n👉 주요업무\n▸ full-stack 개발(관리자 페이지 & 고객 이용 페이지)\n▸ 식단표, 조리지침서, 입고내역서, 매출 , 공지사항, 아이콘 등록&상품 아이콘 노출 기능 개발\n▸ 결함 및 개선 사항 처리\n\n"        ,"images": [
+        "description": "이커머스형 주문시스템으로 기업 고객이 효율적으로 식자재와 식품을 주문 할 수 있도록 지원하는 플랫폼입니다. \n 고객의 요구에 맞춘 신선하고 안전한 제품을 제공하는데 중점을 둔 주문시스템 개발건입니다.\n✔️ 주요업무\n\t▸ full-stack 개발(관리자 페이지 & 고객 이용 페이지)\n\t▸ 식단표, 조리지침서, 입고내역서, 매출 , 공지사항, 아이콘 등록&상품 아이콘 노출 기능 개발\n\t▸ 결함 및 개선 사항 처리\n\n"        ,"images": [
           "images/portfolio/alldot/foodnet.png"
         ],
         "url": "",
@@ -213,9 +213,11 @@
       {
         "title": "롯데홈쇼핑",
         "startDate": "2023.01 - 2023.05",
-        "description": "사용자 친화적인 UI/UX 디자인개편, 모바일 최적화 등 고객의 편의성을 높이고 쇼핑몰의 전환율을 향상시키는 것이 주된 목적으로 만든 플랫폼입니다. \n \n▸ 기존 as-is 개발 소스 분석 to-be 응용 개발\n▸ Vue.js 사용하여 프론트엔드 개발 담당\n   └  상품 전시, 배너, 포인트, 쿠폰 데이터 연동 기능 구현 \n   └  props를 활용한 동적 데이터 바인딩 및 created/mounted 라이프사이클 활용 "
+        "description": "사용자 친화적인 UI/UX 디자인개편, 모바일 최적화 등 고객의 편의성을 높이고 쇼핑몰의 전환율을 향상시키는 것이 주된 목적으로 만든 플랫폼입니다. \n✔️ 주요업무 \n\t▸ 기존 as-is 개발 소스 분석 to-be 응용 개발\n\t▸ Vue.js 사용하여 프론트엔드 개발 담당\n\t\t- 상품 전시, 배너, 포인트, 쿠폰 데이터 연동 기능 구현 \n\t\t-  props를 활용한 동적 데이터 바인딩 및 created/mounted 라이프사이클 활용 \n✔️주요 성과 \n\t- JavaScript 스크립트를 활용한 상품 페이징 및 2×4 그리드 정렬 로직 구현 \n\t- Front-end 단에서 데이터 가공하여 기획된 UI에 맞는 화면 렌더링 이해도 및 구현 역량 강화  "
         ,"images": [
-          "images/portfolio/alldot/lotte_main.png"
+          "images/portfolio/alldot/lotte_main.png",
+          "images/portfolio/alldot/lottemall_2.png",
+          "images/portfolio/alldot/lottemall_more.png"
         ],
         "url": "",
         "technologies": [
@@ -253,10 +255,78 @@
           }
         ]
       },
+            {
+        "title": "한화 큐셀(QSP)",
+        "startDate": "2022.08 - 2022.10",
+        "description": "한화 큐셀 한국, 일본등 법인 OMS(Order Management System) 개발 ESS lifecycle 및 Warranty 관리시스템 입고, 생산, 출고, 설치 관리 기능을 개발한 사이트입니다.\n✔️주요업무 \n\t- 조회 데이터를 JXLS 기반 Excel 양식에 맞게 가공하여 다운로드 기능 구현\n\t- Excel 파일을 PDF로 변환하는 파일 변환 기능 개발\n\t- 조회 리스트를 Grid 컴포넌트로 노출하며 셀 병합·색상 처리 등 화면 표현 로직 구현 "
+        ,"images": [
+          "images/portfolio/alldot/qsp.png",
+          "images/portfolio/alldot/qsp_jslx.png"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-spring-plain",
+            "name": "Springboot"
+          },
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-vuejs-plain",
+            "name": "veu.js"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
+          },
+          {
+            "class": "devicon-mysql-plain",
+            "name": "mySql"
+          },
+          {
+            "class": "devicon-subversion-original",
+            "name": "svn"
+          },
+          {
+            "class": "devicon-jenkins-line",
+            "name": "Jenkins"
+          },
+          {
+            "class": "devicon-jira-plain",
+            "name": "Jira"
+          }
+        ]
+      },
+       {
+        "title": "챗MJ(open ai) ",
+        "startDate": "2025",
+        "description": "Next.js 기반 React 개발 프로젝트에 참여하기에 앞서, open ai api 연동하여 Next.js 활용법에 익숙해지기 위한 개인 스터디 프로젝트로 Next.js App Router 기반 ChatGPT 웹 애플리케이션을 개발하였습니다. \n본 프로젝트를 통해 Next.js 14 버전의 App Router 기반 풀스택 개발 경험을 쌓았으며, Zustand를 활용한 전역 상태 관리, Neon Service 기반 PostgreSQL 데이터 관리, OpenAI API 연동을 통한 AI 채팅 기능 구현을 진행하였습니다.\n 또한 Vercel을 활용하여 실제 서비스 배포까지 완료함으로써, 기획 → 개발 → 배포까지 전 과정을 경험하였습니다.",
+        "images": [
+          "images/portfolio/alldot/chatgpt_detail.png",
+          "images/portfolio/alldot/chatgpt_by minji.png"
+        ],
+        "url": "https://github.com/gmralwnr/chat-gpt-clone.git",
+        "technologies": [
+          {
+            "class": "devicon-nextjs-original",
+            "name": "next.js"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          }
+        ]
+      },
       {
         "title": "MealZo",
         "startDate": "2022",
-        "description": "아카데미에서 첫 번째 웹 개발 중 하나입니다. 1인가구 증가와 동시에 코로나19 장기화에 따라 가정에서 간편한 식사 대체용으로 밀키트 판매가 급증하였습니다 이에 관리자와 고객의 입장에 서서 편리하게 이용 할 수 있도록 밀키트 판매 쇼핑몰 플랫폼을 개발하였습니다!",
+        "description": "아카데미에서 첫 번째 웹 개발 중 하나입니다. 1인가구 증가와 동시에 코로나19 장기화에 따라 가정에서 간편한 식사 대체용으로 밀키트 판매가 급증하였습니다 이에 관리자와 고객의 입장에 서서 편리하게 이용 할 수 있도록 밀키트 판매 쇼핑몰 플랫폼을 개발하였습니다. \n✔️ 주요업무 \n\t▸ 상품 상세 화면 개발\n\t\t- 찜 리스트 count 노출 구현\n\t\t- 상품수량 cont 구현, 리뷰 후기 리스트 조회 개발 \n\t\t- 로그인 후 앞서 시도했던 페이지를 section 값에 담아서 기존 페이지로 이동구현 \n\t\t- 공지사항 필독 게시물 상단고정 쿼리 조회 화면 노출 구현 ",
         "images": [
           "images/portfolio/mealzo/mealzomain.jpg",
           "images/portfolio/mealzo/mealzomypage1.jpg",
@@ -296,37 +366,14 @@
             "name": "html5"
           }
         ]
-      },
-      {
-        "title": "챗MJ(open ai) ",
-        "startDate": "2025",
-        "description": "Next.js 기반 React 개발 프로젝트에 참여하기에 앞서, open ai api 연동하여 Next.js 활용법에 익숙해지기 위한 개인 스터디 프로젝트로 Next.js App Router 기반 ChatGPT 웹 애플리케이션을 개발하였습니다. \n본 프로젝트를 통해 Next.js 14 버전의 App Router 기반 풀스택 개발 경험을 쌓았으며, Zustand를 활용한 전역 상태 관리, Neon Service 기반 PostgreSQL 데이터 관리, OpenAI API 연동을 통한 AI 채팅 기능 구현을 진행하였습니다.\n 또한 Vercel을 활용하여 실제 서비스 배포까지 완료함으로써, 기획 → 개발 → 배포까지 전 과정을 경험하였습니다.",
-        "images": [
-          "images/portfolio/alldot/chatgpt_detail.png",
-          "images/portfolio/alldot/chatgpt_by minji.png"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-nextjs-original",
-            "name": "next.js"
-          },
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          }
-        ]
       }
+     
     ],
   
     "experience": [
       {
         "company": "코아메소드",
-        "title": "SI (System Integration)",
+        "title": "SI (System Integration) \n& SM(System Management)",
         "years": "2022.07 - 2025.12",
         "mainTech": [
           "full-stack"
@@ -337,7 +384,7 @@
       },
       {
         "company": "방송통신대학교 졸업",
-        "title": "컴퓨터과학과",
+        "title": "Computer Engineering(컴퓨터과학과)",
         "years": "2023.02 - 2025.08",
         "mainTech": [
           "4-year University"

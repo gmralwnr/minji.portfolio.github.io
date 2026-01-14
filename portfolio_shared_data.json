@@ -2,7 +2,7 @@
     "basic_info": {
       "name": "{   MinJi Kang  }",
       "email": "gmralwnr@naver.com",
-      "titles": [ "Back-end Developer", "Web Developer", "Mountain climber🏔️ ", "Exercise addict🏋️‍♀️" ],
+      "titles": [ "Back-end Developer", "Web Developer", "Mountain climber🏔️ ", "CrossFitter🏋️‍♀️" ],
       "social": [
         {
           "name": "github",
@@ -10,21 +10,19 @@
           "class": "fab fa-github"
         }
       ],
-      "image": "minji_2.jpg"
+      "image": "images/portfolio/alldot/minji_3.jpg"
     },
     "skills": {
       "icons": [
         {
-          "name": "Java",
-          "class": "devicon-java-plain",
-          "level": "95"
-         
-        },
-
-        {
           "name": "Springboot",
           "class": "devicon-spring-plain",
           "level": "80"
+        },
+        {
+          "name": "Java",
+          "class": "devicon-java-plain",
+          "level": "95"
         },
         {
           "name": "Maven",
@@ -32,11 +30,15 @@
           "level": "80"
         },
         {
+          "name": "Tomcat",
+          "class": "devicon-tomcat-line",
+          "level": "90"
+        },
+        {
           "name": "Gradle",
           "class": "devicon-gradle-plain",
           "level": "80"
         },
-
         {
           "name": "Nodejs",
           "class": "devicon-nodejs-plain",
@@ -62,7 +64,6 @@
           "class": "devicon-javascript-plain",
           "level": "80"
         },
-
         {
           "name": "HTML 5",
           "class": "devicon-html5-plain",
@@ -83,11 +84,6 @@
           "name": "MySql",
           "class": "devicon-mysql-plain",
           "level": "50"
-        },
-        {
-          "name": "Tomcat",
-          "class": "devicon-tomcat-line",
-          "level": "90"
         },
         {
           "class": "devicon-postgresql-plain",
