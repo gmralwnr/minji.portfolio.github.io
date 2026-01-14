@@ -202,6 +202,10 @@ header h1 {
 	white-space: pre-wrap !important;
 	
 }
+.about {
+	white-space: pre-wrap !important;
+	
+}
 
 .font-trebuchet {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -329,7 +333,7 @@ header h1 {
 	padding: 5px 5px 0 5px;
 	margin-bottom: 20px;
 	font-size: 12px;
-	white-space: pre-line;
+	white-space: pre-wrap !important;
 }
 
 .awssld__next {

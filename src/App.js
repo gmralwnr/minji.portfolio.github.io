@@ -34,12 +34,12 @@ class App extends Component {
       oppositeLangIconId === window.$primaryLanguageIconId
         ? window.$secondaryLanguageIconId
         : window.$primaryLanguageIconId;
-    document
-      .getElementById(oppositeLangIconId)
-      .removeAttribute("filter", "brightness(40%)");
-    document
-      .getElementById(pickedLangIconId)
-      .setAttribute("filter", "brightness(40%)");
+    // document
+    //   .getElementById(oppositeLangIconId)
+    //   .removeAttribute("filter", "brightness(40%)");
+    // document
+    //   .getElementById(pickedLangIconId)
+    //   .setAttribute("filter", "brightness(40%)");
   }
 
   componentDidMount() {
@@ -100,7 +100,7 @@ class App extends Component {
               id={window.$primaryLanguageIconId}
             ></span>
           </div>
-          <div
+          {/* <div
             onClick={() =>
               this.applyPickedLanguage(
                 window.$secondaryLanguage,
@@ -108,14 +108,14 @@ class App extends Component {
               )
             }
             style={{ display: "inline" }}
-          >
-            <span
+          > */}
+            {/* <span
               className="iconify language-icon"
               data-icon="twemoji-flag-for-flag-united-kingdom"
               data-inline="false"
               id={window.$secondaryLanguageIconId}
-            ></span>
-          </div>
+            ></span> */}
+          {/* </div> */}
         </div>
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
